@@ -1,0 +1,14 @@
+
+
+
+train_dir: /mnt/dsi_vol1/users/gilsh/data/vggface2/train/
+train_list_path:  /mnt/dsi_vol1/users/gilsh/data/vggface2/train_list.txt
+num_of_clusters: 8 #K
+#This is batch size
+faces_per_template: 1 #N
+feature_size: 512 #D
+experiment_path:  /home/dsi/gilsh/image_retrieval/keras_facenet/experiments/netvlad/
+model_file: /home/dsi/gilsh/image_retrieval/keras_facenet/experiments/netvlad/-{epoch:02d}-{val_loss:.2f}.hdf5
+image_size: 160
+#batch_size: 84
+epochs: 50

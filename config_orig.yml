@@ -1,0 +1,16 @@
+train_dir: /home/dsi/gilsh/image_retrieval/data/vggface2/train/
+train_list_path:  /home/dsi/gilsh/image_retrieval/data/vggface2/file_list.txt
+number_of_identitites: 3000
+#number_of_identitites: 10
+#number_of_identitites: 200
+number_of_samples: 2689
+#number_of_samples: 67239
+#number_of_samples: 34153
+#number_of_samples: 3141890
+# The smallest dimension is scaled to:
+model_file: /home/dsi/gilsh/image_retrieval/face_set_recognition/experiments/all/-{epoch:02d}-{val_loss:.2f}.hdf5
+image_size: 160
+model_depth: 16
+#batch_size: 84
+batch_size: 16
+epochs: 50
